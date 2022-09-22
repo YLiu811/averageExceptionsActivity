@@ -17,7 +17,7 @@ def calculator():
                 finished = True
             except ValueError:
                 print("You must enter at least one number before calculating an average")
-           
+
         else:
             try:
                 number = int(user_input)
